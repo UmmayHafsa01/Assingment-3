@@ -4,8 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grey+Qo&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Whisper&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88d8cd1c36.js" crossorigin="anonymous"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .font-manrope {
+  font-family: "Manrope", sans-serif;
+ 
+}
+</style>
 </head>
-<body>
+<body class="font-manrope">
+    <header class="bg-gradient-to-b from-purple-100 to-purple-50 pb-12 lg:pb-24">
+        <!--navbar-->
+        <nav>
+            <div class="navbar lg:px-24 py-12">
+                <div class="navbar-start">
+                 
+                  <div class="h-6 w-6  flex justify-center items-center rounded-full bg-[#ABEF5F] " ><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
+                  <h3 class="btn btn-ghost text-4xl font-bold">Rinterio</h3>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class=" text-black font-bold">Home</a></li>
+                      <li>
+                          <a class="text-gray-400">Services</a></li>
+                      <li><a class="text-gray-400">Portfolio</a></li>
+                      <li><a class="text-gray-400">Blogs</a></li>
+                      <li><a class="text-gray-400">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn hidden lg:flex bg-[#ABEF5F] text-black rounded-full font-bold text-xl">
+                        Book Consult
+                        <div class="h-6 w-6  flex justify-center items-center rounded-full bg-black"><i class="fa-solid fa-arrow-right -rotate-45 text-white "></i></div>
+                      </button>
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn bg-white border border-gray-200 rounded-full lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content px-auto rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a class=" text-black font-bold">Home</a></li>
+                          <li>
+                            <a>Services</a></li>
+                          <li><a>Portfolio</a></li>
+                          <li><a>Blogs</a></li>
+                          <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+
+        </nav>
+        
+    <!--banner section-->
+    <section class="px-12 lg:px-24 flex flex-col justify-center items-center">
+        <!--img-->
+        <div class="flex-1">
+            <img  src="./assets/banner.png" alt="">
+        </div>
+        <!--text-->
+        <div class="flex flex-col justify-center items-center space-y-5">
+            <h1 class=" text-4xl lg:text-6xl font-bold text-center lg:w-5/6 ">A barn house of this design has a <br> striking appearance</h1>
+            <p class="text-gray-800 lg:w-3/4 text-center text-xl lg:text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="btn hidden lg:flex bg-lime-200 border border-lime-300 text-black rounded-full font-bold text-xl">
+                View Details
+                <div class="h-6 w-6  flex justify-center items-center rounded-full bg-lime-400"><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
+              </button>
+        </div>
+    </section>
+
+    </header>
+    <main class="bg-[#F4F4F4]">
+        <!--about us-->
+        <section class="lg:px-24 pb-12 lg:pb-24">
+            <!--img-->
+            <div><img class="pt-12" src="assets/Vector.png" alt=""> </div>
+            <!--container-->
+            <div>
+                <div class="hero  min-h-screen mx-auto">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                      <img
+                        src="assets/Rectangle.png"
+                        class="max-w-sm rounded-lg shadow-2xl flex-1" />
+                      <div class="flex-1">
+                        <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                        <p class="py-6">
+                          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                          quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
