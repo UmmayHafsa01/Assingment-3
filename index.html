@@ -19,17 +19,17 @@
 </style>
 </head>
 <body class="font-manrope">
-    <header class="bg-gradient-to-b from-purple-100 to-purple-50 pb-12 lg:pb-24">
+    <header class="bg-gradient-to-b from-zinc-100 to-zinc-50 pb-12 lg:pb-24">
         <!--navbar-->
         <nav>
             <div class="navbar lg:px-24 py-12">
                 <div class="navbar-start">
                  
-                  <div class="h-6 w-6  flex justify-center items-center rounded-full bg-[#ABEF5F] " ><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
+                  <div class="h-8 w-8  flex justify-center items-center rounded-full bg-[#ABEF5F] " ><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
                   <h3 class="btn btn-ghost text-4xl font-bold">Rinterio</h3>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
+                  <ul class="menu menu-horizontal text-lg px-1">
                     <li><a class=" text-black font-bold">Home</a></li>
                       <li>
                           <a class="text-gray-400">Services</a></li>
@@ -89,7 +89,7 @@
             <p class="text-gray-800 lg:w-3/4 text-center text-xl lg:text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             <button class="btn hidden lg:flex bg-lime-200 border border-lime-300 text-black rounded-full font-bold text-xl">
                 View Details
-                <div class="h-6 w-6  flex justify-center items-center rounded-full bg-lime-400"><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
+                <div class="h-8 w-8  flex justify-center items-center rounded-full bg-lime-400"><i class="fa-solid fa-arrow-right -rotate-45 text-black "></i></div>
               </button>
         </div>
     </section>
@@ -99,7 +99,7 @@
         <!--about us-->
         <section class="lg:px-24 pb-12 lg:pb-24">
             <!--img-->
-            <div class=" lg:pt-12  "><img class="py-6 border-dashed border-2 border-gray-700 hidden sm:block" src="assets/Vector.png" alt=""> </div>
+            <div class=" lg:pt-12  "><img class=" hidden sm:block" src="assets/Vector.png" alt=""> </div>
             <!--container-->
             <div>
                 <div class="hero  min-h-screen mx-auto ">
@@ -108,7 +108,7 @@
                       <!--text-->
                       
                       <div class=" flex-1 flex flex-col justify-center items-center lg:items-start gap-5">
-                        <button class=" bg-white rounded-full text-black px-4 py-2 font-bold text-xs"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+                        <button class=" bg-white rounded-full text-black px-4 py-2 font-bold text-lg"><i class="fa-solid fa-arrow-right"></i>About Us</button>
                         <h1 class="text-5xl font-extrabold text-center lg:text-start">We design thoughtful, liveable spaces</h1>
                         <p class="py-6 text-gray-700 text-center lg:text-start">
                           The barn house captivates with its blend of rustic charm and 
@@ -250,7 +250,7 @@
 
         </section>
         <!--project section-->
-        <section class="bg-cover "
+        <section class="bg-cover border border-8 border-white border-solid pb-24"
         style="background-image: url(assets/bg.jpg);"
         >
         <!--text-->
@@ -259,9 +259,54 @@
           <h1 class="text-5xl font-extrabold text-center">Our Latest Portfolio</h1>
           <p class=" text-gray-700 text-center">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
         </div>
+        <!--form-->
+        <div class="grid grid-cols-1 lg:grid-cols-2  grid-rows-8 lg:grid-row-6 gap-4 px-6 lg:px-44">
+          <input type="text" placeholder="
+          First Name*" class="shadow-md rounded-full p-5">
+          <input type="text" placeholder="
+          Last Name*" class="shadow-md rounded-full p-5">
+          <input type="number" placeholder="
+          Phone number*" class="shadow-md rounded-full p-5">
+          <input type="email" placeholder="
+          Email*" class="shadow-md rounded-full p-5">
+          <input type="text"  placeholder="
+          Write Your Massage" class="shadow-md rounded-3xl lg:col-span-2 row-span-3 flex justify-start items-start "
+          >
+          <button class="btn  lg:col-span-2 lg:flex bg-[#ABEF5F] mt-5  text-black rounded-full font-extrabold text-xl">
+            Send Mail
+            <div class="h-6 w-6  flex justify-center items-center rounded-full bg-black"><i class="fa-solid fa-arrow-right -rotate-45 text-white "></i></div>
+          </button>
+
+        </div>
         
       </section>
     </main>
+    <!--footer section-->
+    <footer class="bg-[#1C1C1C]">
+      <!--text-->
+      <div class="flex flex-col justify-center items-center gap-5 py-24  space-y-5" >
+        <div class="flex justify-around items-center gap-4">  <div class="h-8 w-8  flex justify-center  items-center rounded-full bg-[#ABEF5F] " ><i class="fa-solid fa-arrow-right text-center -rotate-45 text-black "></i> </div>
+        <h3 class="text-white text-4xl font-bold">Rinterio</h3>
+       </div>
+      
+       <p class=" text-[#737373] text-semibold text-center">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+      
+       <div class="flex flex-col lg:flex-row text-white justify-evenly gap-10 lg:gap-32 items-center ">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Blogs</a>
+        <a href="">contact Us</a>
+       </div>
+       <button class="btn lg:flex bg-[#ABEF5F] text-black rounded-full font-bold text-xl">
+        Book Consult
+        <div class="h-7 w-7  flex justify-center items-center rounded-full bg-black"><i class="fa-solid fa-arrow-right -rotate-45 text-white "></i></div>
+       </button>
+       </div>
+
+
+
+    </footer>
     
 </body>
 </html>
